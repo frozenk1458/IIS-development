@@ -1,0 +1,8 @@
+For now, we configured a simple welcome page with two links (don't work yet) : one will serve for authentication and the other for registration purpose.
+
+The page is accessible via a simple windows authentication (use your login and password to enter into your windows desktop).
+
+The current objectives are :
+
+- Think about create authentication page. If I'll do that I allow people adding users without previous checking (security reason). 
+- Manage the authentication via Active Directory (with registration form for user).
