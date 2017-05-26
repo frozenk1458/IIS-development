@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">
+    <appSettings />
+    <connectionStrings />
     <system.webServer>
         <defaultDocument>
             <files>
@@ -8,3 +10,10 @@
         </defaultDocument>
     </system.webServer>
 </configuration>
+<system.web>
+   <authentication mode="Windows" />
+   <authorization>
+      
+      <allow users="*" />
+   </authorization>
+</system.web>
